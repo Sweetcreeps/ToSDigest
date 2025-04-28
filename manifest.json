@@ -1,0 +1,37 @@
+{
+    "name": "ToSDigest",
+    "description": "AI-powered ToS summarizer, auto-on signup/login pages only",
+    "version": "1.0.1",
+    "manifest_version": 3,
+    "permissions": [
+      "storage",
+      "scripting"                   
+    ],
+    "host_permissions": [
+      "http://localhost:5000/*",
+      "<all_urls>"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": [
+          "*://*/*login*",
+          "*://*/*signin*",
+          "*://*/*signup*",
+          "*://*/*register*"
+        ],
+        "js": ["content_script.js"],
+        "run_at": "document_end"
+      }
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "Summarize ToS"
+    },
+    "icons": {
+      "32": "icons/32.png"
+    }
+  }
+  
