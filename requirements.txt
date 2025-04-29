@@ -1,4 +1,5 @@
-openai>=1.76.0
-python-dotenv
-flask
-flask-cors
+# Python dependencies for the summarizer API
+openai>=1.76.0      # Official OpenAI Python client
+python-dotenv       # Loads .env files for secret management
+flask               # Lightweight web framework for the API
+flask-cors          # Enables CORS so the extension can call the API

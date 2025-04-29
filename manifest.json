@@ -1,11 +1,12 @@
 {
     "name": "ToSDigest",
-    "description": "AI-powered ToS summarizer, auto-on signup/login pages only",
-    "version": "1.0.1",
+    "description": "AI-powered summarizer of website Terms of Service — auto-on signup/login, manual elsewhere",
+    "version": "1.1.0",
     "manifest_version": 3,
     "permissions": [
       "storage",
-      "scripting"                   
+      "scripting",
+      "notifications"
     ],
     "host_permissions": [
       "http://localhost:5000/*",
@@ -18,17 +19,17 @@
       {
         "matches": [
           "*://*/*login*",
-          "*://*/*signin*",
           "*://*/*signup*",
           "*://*/*register*"
         ],
-        "js": ["content_script.js"],
+        "js": [
+          "content_script.js"
+        ],
         "run_at": "document_end"
       }
     ],
     "action": {
-      "default_popup": "popup.html",
-      "default_title": "Summarize ToS"
+      "default_title": "ToSDigest"
     },
     "icons": {
       "32": "icons/32.png"
