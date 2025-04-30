@@ -3,3 +3,4 @@ openai>=1.76.0      # Official OpenAI Python client
 python-dotenv       # Loads .env files for secret management
 flask               # Lightweight web framework for the API
 flask-cors          # Enables CORS so the extension can call the API
+gunicorn           # WSGI server for running the Flask app in production
