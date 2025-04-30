@@ -1,7 +1,7 @@
 {
     "name": "ToSDigest",
     "description": "AI-powered summarizer of website Terms of Service — auto-on signup/login, manual elsewhere",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "manifest_version": 3,
     "permissions": [
       "storage",
@@ -9,7 +9,7 @@
       "notifications"
     ],
     "host_permissions": [
-      "http://localhost:5000/*",
+      "https://tosdigest.onrender.com/*",
       "<all_urls>"
     ],
     "background": {

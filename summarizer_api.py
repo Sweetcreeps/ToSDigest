@@ -200,5 +200,5 @@ def summarize():
         return jsonify({"error": str(e)}), 500
 
 if __name__ == "__main__":
-    # Run the Flask app on http://localhost:5000 in debug mode
+    # Run the Flask app on https://tosdigest.onrender.com/summarize in debug mode
     app.run(debug=True)

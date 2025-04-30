@@ -24,7 +24,7 @@ chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
   
     // If the content script sends text for summarization, forward it to the local API
     if (msg.action === 'summarize') {
-      fetch('http://localhost:5000/summarize', {
+      fetch('https://tosdigest.onrender.com/summarize', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         // Pass the entire ToS text as JSON
