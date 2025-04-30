@@ -9,9 +9,9 @@ An AI-powered Chrome extension to summarize website Terms of Service on-demand.
 - Summaries powered by OpenAI models
 
 ## Installation
+#### Extension is currently pending to be published on the Chrome Web Store, the link will then be placed here: ***
 
 1. **Download from GitHub**  
-   - Navigate to your repository on GitHub.  
    - Click **Code → Download ZIP**.  
    - Unzip the downloaded archive to a folder on your computer.
 
@@ -27,5 +27,5 @@ An AI-powered Chrome extension to summarize website Terms of Service on-demand.
   Runs on pages whose URL matches `*login*`, `*signup*` or `*register*`. The banner appears without clicking.
 
 - **Manual Mode**  
-  Click the ToSDigest toolbar icon on any page to inject the “Summarize” banner.
+  Click the ToSDigest toolbar icon on any page to inject the “Summarize” bannern then click on the `Summarize` button to run the ToS through the AI.
 
