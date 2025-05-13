@@ -9,8 +9,9 @@ An AI-powered Chrome extension to summarize website Terms of Service on-demand.
 - Summaries powered by OpenAI models
 
 ## Installation
-#### Extension is currently pending to be published on the Chrome Web Store, the link will then be placed here: ***
+#### It can be downloaded through the Chrome Web Store: https://chromewebstore.google.com/detail/tosdigest/hphipadddccapkfpngkjbllcalopfbci 
 
+## Direct Download Through repository ##
 1. **Download from GitHub**  
    - Click **Code → Download ZIP**.  
    - Unzip the downloaded archive to a folder on your computer.
